@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  <Button
+      android:id="@+id/btn_style"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/different_style" />
+  <Button
+      android:id="@+id/btn_with_view_pager"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/with_view_pager" />
+  <Button
+      android:id="@+id/btn_setup_with_view_pager"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/setup_with_view_pager" />
+  <Button
+      android:id="@+id/btn_badge_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/badge_view" />
+</LinearLayout>
