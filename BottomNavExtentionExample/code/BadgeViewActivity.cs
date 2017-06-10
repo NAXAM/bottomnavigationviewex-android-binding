@@ -10,7 +10,7 @@ using Com.Ittianyu.Bottomnavigationviewex;
 using Android.Support.V7.App;
 using Android.Support.Design.Widget;
 
-namespace BottomNavExtentionExample.Resources.code
+namespace BottomNavExtentionExample
 {
     [Activity(Label = "Activity1", Theme = "@style/AppTheme", MainLauncher = true, Icon = "@drawable/icon")]
     public class BadgeViewActivity : AppCompatActivity

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Allenliu.Badgeview</id>
+        <version>1.1.1</version>
+        <description>Xamarin Binding Library - Allenliu Badgeview</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Allenliu Badgeview</title>
+        <releaseNotes>Allenliu Badgeview v1.1.1</releaseNotes>
+        <summary>Xamarin Binding Library - Allenliu Badgeview</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xand-bottomnavigationviewex/Naxam.Allenliu.Badgeview</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, badgeview, badge-view</tags>
+        <dependencies>
+            <!--<dependency id="Xamarin.Android.Support.Design" version="25.3.1"/>-->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Allenliu.Badgeview/bin/Release/Naxam.Allenliu.Badgeview.dll" target="lib/MonoAndroid10/Naxam.Allenliu.Badgeview.dll" />
+    </files>
+</package>

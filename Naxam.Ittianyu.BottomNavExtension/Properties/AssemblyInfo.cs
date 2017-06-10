@@ -9,9 +9,9 @@ using Android.App;
 [assembly: AssemblyTitle("Naxam.Ittianyu.BottomNavExtension")]
 [assembly: AssemblyDescription("Xamarin.Android Binding Library for Ittianyu.BottomNavigationViewEx")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NAXAM CO., LTD")]
-[assembly: AssemblyProduct("Naxam.Ittianyu.BottomNavExtension")]
-[assembly: AssemblyCopyright("Copyright ©  2017 Naxam")]
+[assembly: AssemblyCompany("NAXAM COMPANY LIMITED")]
+[assembly: AssemblyProduct("X Bindings")]
+[assembly: AssemblyCopyright("Copyright © NAXAM 2017 ")]
 [assembly: AssemblyTrademark("NAXAM")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
@@ -26,5 +26,5 @@ using Android.App;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.7.0")]
-[assembly: AssemblyFileVersion("1.1.7.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]

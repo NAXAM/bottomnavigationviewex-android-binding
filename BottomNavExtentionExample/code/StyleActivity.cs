@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Com.Ittianyu.Bottomnavigationviewex;
 
-namespace BottomNavExtentionExample.Resources.code
+namespace BottomNavExtentionExample
 {
     [Activity(Label = "StyleActivity", Theme = "@style/AppTheme", MainLauncher = true, Icon = "@drawable/icon")]
     public class StyleActivity : Activity

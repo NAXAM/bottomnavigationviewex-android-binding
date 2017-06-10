@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace BottomNavExtentionExample.Resources.code
+namespace BottomNavExtentionExample
 {
     [Activity(Label = "SetupWithViewPagerActivity",Theme = "@style/AppTheme", MainLauncher = true, Icon = "@drawable/icon")]
     public class SetupWithViewPagerActivity : Activity

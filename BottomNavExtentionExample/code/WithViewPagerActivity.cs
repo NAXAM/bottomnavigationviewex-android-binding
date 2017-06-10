@@ -14,7 +14,7 @@ using Android.Support.V4;
 using Android.Support.V7;
 using Com.Ittianyu.Bottomnavigationviewex;
 
-namespace BottomNavExtentionExample.Resources.code
+namespace BottomNavExtentionExample
 {
     [Activity(Label = "WithViewPagerActivity",Theme = "@style/AppTheme", MainLauncher = true, Icon = "@drawable/icon")]
     public class WithViewPagerActivity : Activity
@@ -35,7 +35,7 @@ namespace BottomNavExtentionExample.Resources.code
 
         public void InitInterface()
         {
-            bnve = (BottomNavigationViewEx)FindViewById(Resource.Id.bnve);
+            bnve = (BottomNavigationViewEx)FindViewById(Resource.Id.activity_with_view_pager);
             bnve.EnableAnimation(false);
             bnve.EnableItemShiftingMode(false);
             //bnve.Click += Bnve_Click;

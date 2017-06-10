@@ -40,22 +40,22 @@ namespace BottomNavExtentionExample
 
         private void BtBadgeView_Click(object sender, System.EventArgs e)
         {
-            StartActivity(new Android.Content.Intent(this, typeof(Resources.code.BadgeViewActivity)));
+            StartActivity(new Android.Content.Intent(this, typeof(BadgeViewActivity)));
         }
 
         private void BtSetUpViewPager_Click(object sender, System.EventArgs e)
         {
-            StartActivity(new Android.Content.Intent(this, typeof(Resources.code.SetupWithViewPagerActivity)));
+            StartActivity(new Android.Content.Intent(this, typeof(SetupWithViewPagerActivity)));
         }
 
         private void BtViewPager_Click(object sender, System.EventArgs e)
         {
-            StartActivity(new Android.Content.Intent(this, typeof(Resources.code.WithViewPagerActivity)));
+            StartActivity(new Android.Content.Intent(this, typeof(WithViewPagerActivity)));
         }
 
         private void BtDifferentStyle_Click(object sender, System.EventArgs e)
         {
-            StartActivity(new Android.Content.Intent(this, typeof(Resources.code.StyleActivity)));
+            StartActivity(new Android.Content.Intent(this, typeof(StyleActivity)));
         }
     }
 }
