@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottomNavExtentionExample",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Allenliu.Badgeview", "Naxam.Allenliu.Badgeview\Naxam.Allenliu.Badgeview.csproj", "{4044A582-281A-4007-AF61-2C068D840D0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{C8471079-7965-4ADF-89CC-54BB40DDB322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AAC1E8C-AB87-4A0C-BAE4-14F76C25F5E0} = {C8471079-7965-4ADF-89CC-54BB40DDB322}
+		{4044A582-281A-4007-AF61-2C068D840D0C} = {C8471079-7965-4ADF-89CC-54BB40DDB322}
 	EndGlobalSection
 EndGlobal

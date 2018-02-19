@@ -17,7 +17,7 @@
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, BottomNaviationView, BottomNavigationViewEx</tags>
         <dependencies>
-            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.1"/>
+            <dependency id="Xamarin.Android.Support.Design" version="26.1.0.1"/>
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
