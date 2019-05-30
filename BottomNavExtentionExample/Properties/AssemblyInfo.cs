@@ -9,10 +9,10 @@ using Android.App;
 [assembly: AssemblyTitle("BottomNavExtentionExample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Naxam Company Limited")]
 [assembly: AssemblyProduct("BottomNavExtentionExample")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © 2019 NAXAM")]
+[assembly: AssemblyTrademark("Naxam")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 

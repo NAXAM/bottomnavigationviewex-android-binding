@@ -11,7 +11,7 @@ using Android.App;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NAXAM COMPANY LIMITED")]
 [assembly: AssemblyProduct("X Bindings")]
-[assembly: AssemblyCopyright("Copyright © NAXAM 2017 ")]
+[assembly: AssemblyCopyright("Copyright © NAXAM 2019 ")]
 [assembly: AssemblyTrademark("NAXAM")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

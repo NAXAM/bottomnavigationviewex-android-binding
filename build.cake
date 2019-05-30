@@ -1,7 +1,14 @@
-#tool nuget:?package=NUnit.ConsoleRunner&version=3.4.0
+// Tools needed by cake addins
+#tool nuget:?package=ILRepack&version=2.0.13
+#tool nuget:?package=Cake.MonoApiTools&version=3.0.1
+#tool nuget:?package=Microsoft.DotNet.BuildTools.GenAPI&version=1.0.0-beta-00081
+#tool nuget:?package=vswhere
 
 // Cake Addins
-#addin nuget:?package=Cake.FileHelpers&version=2.0.0
+#addin nuget:?package=Cake.FileHelpers&version=3.1.0
+#addin nuget:?package=Cake.Compression&version=0.1.6
+#addin nuget:?package=Cake.MonoApiTools&version=3.0.1
+#addin nuget:?package=Xamarin.Nuget.Validator&version=1.1.1
 
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
@@ -10,7 +17,7 @@
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 
-var VERSION = "1.2.4";
+var VERSION = "2.0.4";
 
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
@@ -40,7 +47,7 @@ Task("Clean")
         DeleteFile(package);
     }
 
-    CleanDirectory("./packages");
+    //CleanDirectory("./packages");
 });
 
 Task("Restore-NuGet-Packages")
@@ -55,7 +62,10 @@ Task("Build")
     .IsDependentOn("Restore-NuGet-Packages")
     .Does(() =>
 {
-    MSBuild(slnFile, settings => settings.SetConfiguration(configuration));
+    MSBuild(slnFile, settings => {
+        settings.ToolVersion = MSBuildToolVersion.VS2019;
+        settings.SetConfiguration(configuration);
+    });
 });
 
 Task("UpdateVersion")

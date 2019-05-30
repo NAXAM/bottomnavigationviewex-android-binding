@@ -168,7 +168,7 @@ You no need to worry about stability. Because I minimise modifying by reflecting
 
 	MIT License
 	
-	Copyright (c) 2017 NAXAM
+	Copyright (c) 2019 NAXAM
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
